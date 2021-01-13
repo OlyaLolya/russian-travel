@@ -1,25 +1,25 @@
 @font-face {
   src:
-      url('/fonts/Inter-Regular.woff') format('woff'),
-      url('/fonts/Inter-Regular.woff2') format('woff2'),
-      url("/fonts/Inter-Regular.ttf") format('truetype');
-  font-family: 'Inter', sans-serif;
+      url('/Inter-Regular.woff') format('woff'),
+      url('/Inter-Regular.woff2') format('woff2'),
+      url("/Inter-Regular.ttf") format('truetype');
+  font-family: 'Inter';
   font-weight: normal;
 }
 @font-face {
   src:
-    url('/fonts/Inter-Black.woff') format('woff'),
-    url('/fonts/Inter-Black.woff2') format('woff2'),
-    url("/fonts/Inter-Black.ttf") format('truetype');
-  font-family: 'Inter', sans-serif;
+    url('/Inter-Black.woff') format('woff'),
+    url('/Inter-Black.woff2') format('woff2'),
+    url("/Inter-Black.ttf") format('truetype');
+  font-family: 'Inter';
   font-weight: bold;
 }
 
 @font-face {
   src:
-    url('/fonts/Inter-Bold.woff') format('woff'),
-    url('/fonts/Inter-Bold.woff2') format('woff2'),
-    url("/fonts/Inter-Bold.ttf") format('truetype');
-  font-family: 'Inter', sans-serif;
+    url('/Inter-Bold.woff') format('woff'),
+    url('/Inter-Bold.woff2') format('woff2'),
+    url("/Inter-Bold.ttf") format('truetype');
+  font-family: 'Inter';
   font-weight: 700;
 }
