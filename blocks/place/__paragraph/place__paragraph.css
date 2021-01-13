@@ -1,0 +1,27 @@
+.place__paragraph{
+  margin: 25px 16px 0;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26.08px;
+}
+@media screen and (min-width: 768px){
+  .place__paragraph{
+    margin: 0 auto 25px;
+    font-size: 18px;
+
+    grid-column-start: 2;
+  }
+}@media screen and (min-width: 1024px){
+  .place__paragraph{
+    margin: 0 auto 27px;
+    line-height: 29.34px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .place__paragraph{
+    margin: 0 auto 26px;
+  }
+}
+
+

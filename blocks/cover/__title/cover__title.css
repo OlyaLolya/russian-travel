@@ -1,0 +1,32 @@
+.cover__title{
+  margin: 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  max-width: 288px;
+
+  z-index: 2;
+}
+.cover__title:hover ~ .cover__overlay{
+  opacity: 80%;
+}
+@media screen and (min-width: 768px) {
+  .cover__title{
+    max-width: 560px;
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cover__title{
+
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cover__title{
+
+  }
+}

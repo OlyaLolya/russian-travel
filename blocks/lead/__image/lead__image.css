@@ -1,0 +1,20 @@
+.lead__image{
+  margin: 0;
+  display: grid;
+  align-self: center;
+  width: 100%;
+  justify-content: center;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 1024px){
+  .lead__image{
+    grid-template-columns: minmax(320px, 928px);
+
+  }
+}
+@media screen and(min-width: 1280px){
+  .lead__image{
+    grid-template-columns: minmax(320px, 984px);
+  }
+}

@@ -1,0 +1,31 @@
+.place{
+  margin: 50px auto 0;
+  width: 100vw;
+}
+@media screen and (min-width: 768px){
+  .place{
+
+    margin: 0 auto;
+    padding: 0 0 80px;
+    display: grid;
+    justify-content: center;
+    max-width: 720px;
+    min-height: 434px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content;
+    gap: 48px 40px;
+
+  }
+}
+@media screen and (min-width: 1024px){
+  .place{
+    max-width: 928px;
+    min-height: 640px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .place{
+    max-width: 984px;
+    min-height: 660px;
+  }
+}
