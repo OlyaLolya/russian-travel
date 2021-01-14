@@ -1,13 +1,17 @@
-.place__title{
+.place__title {
   margin: 0 0 0 16px;
   color: #fff;
-  width: 288px;
-  font-weight: bold;
+  /*подозреваю что горизонтальный скролл на страничке появлялся из-за жестко заданной ширины заголовка*/
+  /*в янд браузре, есть скролл, но после обновления странички он исчезает и не появляется больше.
+  В хроме его вообще нет никогда, а опера добавляет скролл даже пустому боди.*/
+  max-width: 288px;
+  font-weight: 900;
   font-size: 32px;
   line-height: 35px;
 }
-@media screen and (min-width: 768px){
-  .place__title{
+
+@media screen and (min-width: 768px) {
+  .place__title {
     margin: 0;
     font-size: 42px;
     line-height: 46px;
@@ -18,8 +22,9 @@
     align-self: end;
   }
 }
-@media screen and (min-width: 1024px){
-  .place__title{
+
+@media screen and (min-width: 1024px) {
+  .place__title {
     margin: 0;
     font-size: 72px;
     line-height: 76px;
@@ -30,8 +35,9 @@
     align-self: end;
   }
 }
-@media screen and (min-width: 1280px){
-  .place__title{
+
+@media screen and (min-width: 1280px) {
+  .place__title {
 
   }
 }
