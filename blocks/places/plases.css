@@ -1,18 +1,23 @@
 .places{
-  margin: 14px auto 66px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 62px 0 62px 0;
+  padding: 0;
 }
 @media screen and (min-width: 768px){
   .places{
-    margin: 88px auto 90px;
+    margin: 90px 0;
+    padding: 0 24px;
   }
 }
 @media screen and (min-width: 1024px){
   .places{
-    margin: 92px auto 92px;
+    margin: 92px 0;
+    padding: 0 48px;
   }
 }
 @media screen and (min-width: 1280px){
   .places{
-
+    padding: 0 148px;
   }
 }
