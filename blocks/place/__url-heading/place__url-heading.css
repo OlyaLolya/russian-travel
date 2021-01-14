@@ -5,24 +5,13 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: .2em;
-
+  text-transform: uppercase;
 }
 @media screen and (min-width: 768px){
   .place__url-heading{
     margin: 0 0 12px 0;
     min-height: 12px;
-    font-weight: normal;
     grid-row-start: 2;
-  }
-}
-@media screen and (min-width: 1024px){
-  .place__url-heading{
-
-  }
-}
-@media screen and (min-width: 1280px){
-  .place__url-heading{
-
   }
 }
 
