@@ -1,18 +1,19 @@
 .places{
   display: flex;
   flex-flow: column nowrap;
-  margin: 62px 0 62px 0;
+  margin: 62px auto 62px;
   padding: 0;
+  max-width: 984px;
 }
 @media screen and (min-width: 768px){
   .places{
-    margin: 90px 0;
+    margin: 90px auto;
     padding: 0 24px;
   }
 }
 @media screen and (min-width: 1024px){
   .places{
-    margin: 92px 0;
+    margin: 92px auto;
     padding: 0 48px;
   }
 }
