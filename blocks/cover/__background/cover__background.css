@@ -28,10 +28,8 @@
 }
 @media screen and (min-width: 1280px) {
   .cover__background{
-    /*min-width: 1184px;
-    min-height: 740px;*/
     max-width: 1184px;
-    /*max-height: 740px;*/
+    min-height: 740px;
 
   }
 }
